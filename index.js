@@ -33,4 +33,49 @@ greet('erfan', 'aminian')
 function square(Number){
     return Number * Number;
 };
-console.log(square(10));
+
+
+//console.log(square(10));
+
+// 19
+
+let x = 10;
+let y = 3;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
+
+//Increment
+console.log(x++);
+console.log(x);
+
+//Decrement
+console.log(--x);
+// 20
+let z = 10;
+
+z = z + 5;
+z += 5;
+
+z = z * 3;
+z *= 3;
+
+// 21 Relational
+let p = 1;
+console.log(x >= 0);
+console.log(x <= 0);
+
+console.log(x === 1);
+console.log(x !== 1);
+// 22
+//Strict Equakity (type + value)
+console.log(1===1);
+console.log('1'===1);
+
+//lose Equality(value)
+console.log(1==1);
+console.log('1'==1);
+console.log(true==1);
