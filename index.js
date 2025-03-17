@@ -117,3 +117,12 @@ console.log(message);
 //27
 let xx = (2 +3) * 4;
 console.log(xx);
+//29
+let a = 'red';
+let b = 'blue';
+
+let c =a;
+a = b;
+b = c;
+console.log(a);
+console.log(b);
