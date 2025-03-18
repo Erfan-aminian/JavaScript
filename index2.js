@@ -36,3 +36,31 @@ do {
     if(z % 2 !== 0) console.log(z);
     z++;  
 } while(z<=5);
+//35
+//while(true){
+//}
+//36
+const person = {
+    name : 'mosh',
+    age : 30
+};
+for (let key in person){
+    console.log(key, person[key]);
+}
+const colors= ['red', 'green', 'nlue'];
+for(let index in colors)
+    console.log(index, colors[index])
+//37
+for(let color of colors)
+    console.log(color)
+//38
+let q=0;
+while(q<=10){
+    if (q===5) break;
+    if (q % 2 === 0){
+        q++;
+        continue;
+    }
+    console.log(q);
+    q++;
+}
