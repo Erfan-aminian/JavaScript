@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>🚀 JavaScript Learning Project</title>
+    🚀 JavaScript Learning Project
 
 </head>
 <body>
