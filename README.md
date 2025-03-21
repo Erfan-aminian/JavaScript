@@ -2,14 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>🚀 JavaScript Learning Project</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 0 20px}
-        pre {background: #f4f4f4; padding: 10px; border-radius: 5px}
-    </style>
+    🚀 JavaScript Learning Project
+
 </head>
 <body>
-    <h1 style="text-align: center">🚀 JavaScript Learning Project</h1>
+    <h1>🚀 JavaScript Learning Project</h1>
     
     <p>A collection of practical projects to enhance JavaScript skills!<br>
     Learn from basic to advanced concepts by building real-world applications.</p>
