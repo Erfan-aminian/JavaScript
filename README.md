@@ -44,7 +44,7 @@
 
     <h2>📥 Installation</h2>
     <pre><code>git clone https://github.com/your-username/javascript-projects.git
-cd javascript-projects/[project-name]
+cd javascript-projects
 open index.html</code></pre>
 
     <h2>🤝 Contributing</h2>
@@ -58,6 +58,5 @@ open index.html</code></pre>
 
     <h2>📬 Contact</h2>
     <p>Have questions? <a href="mailto:your-email@example.com">Email me</a> or 
-    <a href="https://twitter.com/your-handle">DM on Twitter</a></p>
 </body>
 </html>
