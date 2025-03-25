@@ -9,6 +9,8 @@
     <h1>🚀 JavaScript Learning Project</h1>
     
     <p>A collection of practical projects to enhance JavaScript skills!<br>
+    <p>Write the exercixe name in exercise.html and run it!<br>
+
     Learn from basic to advanced concepts by building real-world applications.</p>
 
     <hr>
