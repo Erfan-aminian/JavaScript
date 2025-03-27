@@ -9,6 +9,8 @@
     <h1>🚀 JavaScript Learning Project</h1>
     
     <p>A collection of practical projects to enhance JavaScript skills!<br>
+    <p>Write the exercixe name in exercise.html and run it!<br>
+
     Learn from basic to advanced concepts by building real-world applications.</p>
 
     <hr>
@@ -44,7 +46,7 @@
 
     <h2>📥 Installation</h2>
     <pre><code>git clone https://github.com/your-username/javascript-projects.git
-cd javascript-projects/[project-name]
+cd javascript-projects
 open index.html</code></pre>
 
     <h2>🤝 Contributing</h2>
@@ -58,6 +60,5 @@ open index.html</code></pre>
 
     <h2>📬 Contact</h2>
     <p>Have questions? <a href="mailto:your-email@example.com">Email me</a> or 
-    <a href="https://twitter.com/your-handle">DM on Twitter</a></p>
 </body>
 </html>
