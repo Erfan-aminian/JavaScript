@@ -12,13 +12,14 @@ This is an educational JavaScript project designed to help learners understand v
 To run the project:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Erfan-aminian/JavaScript.git
    ```
 2. Open the `exercise.html` file in a web browser.
 
 ## File Structure
 ```
 /your-repo
+│── index.html  # JavaScript projects code
 │── exercise.html  # Contains the list of JavaScript project names
 │── README.md      # Project documentation
 ```
