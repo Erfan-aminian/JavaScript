@@ -1,10 +1,16 @@
-showPrimes(100)
+showPrimes(20)
 
 function showPrimes(limit){
-    for (let number = 2; number <= limit; number++)
-        if (isPrime(number)) console.log(number);
+    let i = 0;
+    for (let number = 2; number <= limit; number++){
+        if (isPrime(number)){
+            i += 1;
+            console.log(i+' : '+ number);
+        }
+    }
+}        
     
-}
+
 
 function isPrime(number){
     for(let factor = 2; factor < number; factor++)
