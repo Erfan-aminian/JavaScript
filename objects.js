@@ -1,5 +1,5 @@
 //50
-const circle = {
+const circle2525 = {
     radius : 1,
     location: {
         x: 1,
@@ -10,7 +10,7 @@ const circle = {
         console.log("Draw");
     }
 };
-//circle.draw()
+//circle2525.draw()
 //51 Factory Function
 
 function createCircle(radius){
@@ -23,3 +23,13 @@ function createCircle(radius){
 }
 const circle1 = createCircle(1);
 console.log(circle1)
+// 52 Constructor Function
+
+function Circle(radius){
+    this.radius = radius;
+    this.draw = function(){
+        console.log('draw!');
+    }
+}
+const circle = new Circle(1);
+
