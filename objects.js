@@ -41,3 +41,15 @@ circle3.draw = function() {}
 
 delete circle3.color;
 //console.log(circle3)
+
+// 54 , 55 
+
+function Circle23(radius){
+    this.radius = radius;
+    this.draw = function(){
+        console.log('Draw!');
+    }
+}
+Circle23.call({}, 1);
+Circle23.apply({}, [1,2,3]);
+const another = new Circle23(1);
