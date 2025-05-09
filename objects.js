@@ -53,3 +53,11 @@ function Circle23(radius){
 Circle23.call({}, 1);
 Circle23.apply({}, [1,2,3]);
 const another = new Circle23(1);
+
+//56
+let obj = {value : 10};
+function increase(obj){
+    obj.value++;
+}
+increase(obj);
+console.log(obj);
