@@ -61,3 +61,13 @@ function increase(obj){
 }
 increase(obj);
 console.log(obj);
+//57
+const circle34 = {
+    radius: 1,
+    draw(){
+        console.log('draw')
+    }
+};
+
+for(let key in circle34)
+    console.log(key, circle34[key]);
