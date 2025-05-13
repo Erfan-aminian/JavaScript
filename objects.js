@@ -55,19 +55,29 @@ Circle23.apply({}, [1,2,3]);
 const another = new Circle23(1);
 
 //56
-let obj = {value : 10};
-function increase(obj){
+let obj = { value: 10};
+
+function increase(obj) {
     obj.value++;
 }
+
 increase(obj);
 console.log(obj);
-//57
-const circle34 = {
+// 57
+const circle11 = {
     radius: 1,
-    draw(){
-        console.log('draw')
+    draw() {
+        console.log('Draw!');
     }
 };
 
-for(let key in circle34)
-    console.log(key, circle34[key]);
+for (let key in circle11)
+    console.log(key, circle11[key]);
+
+for (let key of Object.keys(circle11))
+    console.log(key);
+
+for (let entry of Object.entries(circle11))
+    console.log(entry);
+
+if ('radius' in circle11) console.log('Yes!');
