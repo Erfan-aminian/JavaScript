@@ -52,7 +52,7 @@ function Circle23(radius){
 }
 Circle23.call({}, 1);
 Circle23.apply({}, [1,2,3]);
-const another = new Circle23(1);
+const another2 = new Circle23(1);
 
 //56
 let obj = { value: 10};
@@ -82,4 +82,21 @@ for (let entry of Object.entries(circle11))
 
 if ('radius' in circle11) console.log('Yes!');
 
-//this code is updated
+//58
+const circle43 = {
+    radius: 1,
+    draw(){
+        console.log('draw!');
+    }
+};
+
+//const another = {};
+//for (let key in circle43)
+    //another[key] = circle43[key];
+
+//const another = Object.assign({}, circle43);
+
+const another = { ...circle43 };
+
+console.log(another);
+//60
