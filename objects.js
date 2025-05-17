@@ -100,3 +100,7 @@ const another = { ...circle43 };
 
 console.log(another);
 //60
+//61
+const message = 'This is my \n first message';
+
+const another = new String('Hi');
