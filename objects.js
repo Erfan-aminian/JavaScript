@@ -96,7 +96,7 @@ const circle43 = {
 
 //const another = Object.assign({}, circle43);
 
-const another = { ...circle43 };
+const another33 = { ...circle43 };
 
 console.log(another);
 //60
@@ -104,3 +104,18 @@ console.log(another);
 const message = 'This is my \n first message';
 
 const another = new String('Hi');
+//62
+
+const another3 = `This is my
+first message`
+
+const name2 = 'john';
+const letter = 
+`Hi ${name2}, 
+thank you for joining my meet.`
+//63
+const now = new Date();
+const date1 = new Date('May 11 2018 09:00');
+const date2 = new Date(2018, 4, 11, 9);
+
+now.setFullYear(2017);
