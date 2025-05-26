@@ -37,5 +37,40 @@ const first = numbers3.shift();
 // middle
 numbers3.splice(2, 2);
 console.log(numbers3);
+// 77 Empty arrays
+let numbers4 = [1, 2, 3, 4];
+let another1 = numbers4;
 
-  
+//1
+numbers4 = [];
+//2
+numbers4.length = 0;
+//3
+numbers4.splice(0, numbers4.length);
+//4
+while (numbers4.length > 0)
+    numbers4.pop();
+
+console.log(numbers4);
+console.log(another1);
+// 78 combined and slice
+const first1 = [1, 2, 3];
+const second1 = [4, 5, 6];
+
+const combined = first1.concat(second1);
+
+const slice = combined.slice(2,4);
+console.log(combined);
+console.log(slice);
+//79
+const first2 = [1, 2, 3];
+const second2 = [4, 5, 6];
+
+const combined2 = [...first2, 'a', ...second2, 'b'];
+const copy = [...combined2];
+//80 
+const num = [1, 2, 3];
+for (let number of num)
+    console.log(number);
+
+num.forEach((number, index) => console.log(index, num));
