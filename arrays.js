@@ -74,14 +74,32 @@ for (let number of num)
     console.log(number);
 
 num.forEach((number, index) => console.log(index, num));
-///
-let priceRanges = [
-    { label: '$', tooltip:'Inexpensive', minPerPerson: 0, maxPerPerson: 10 },
-    { label: '$$', tooltip:'Moderate', minPerPerson: 11, maxPerPerson: 20 },
-    { label: '$$$', tooltip:'Expensive', minPerPerson: 21, maxPerPerson: 50 },
+// 81 Join and split
+const num2 = [1, 2, 3];
+const joined = num2.join(',');
+console.log(joined);
 
+const message = 'This is my first message';
+const parts = message.split(' ');
+console.log(parts);
+
+const combined3 = parts.join('-');
+console.log(combined3)
+//82
+const courses1 = [
+    { id: 1, name: 'Node.js'},
+    { id: 2, name: 'JavaScripts'},
 ];
 
-let restaurants = [
-    { averagePerPerson: 5 }
-]
+courses1.sort(function(a, b){
+    // a < b => -1
+    // a > b => 1
+    // a === b => 0
+    const nameA = a.name.toLocaleLowerCase();
+    const nameB = b.name.toLocaleLowerCase();
+
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
+    return 0;
+});
+console.log(courses1);
