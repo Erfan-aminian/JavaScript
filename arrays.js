@@ -103,3 +103,29 @@ courses1.sort(function(a, b){
     return 0;
 });
 console.log(courses1);
+//83
+const numberss = [1, -1, 2, 3];
+const atLeastOnePositive = numberss.some(function(value){
+    return value >= 0;
+});
+console.log(atLeastOnePositive);
+//84
+const num3 = [1, 2, -1, 3];
+const filtered = num3.filter(value => value>= 0);
+console.log(filtered);
+//85 
+const number34 = [1, 2, -1, 3];
+
+const items = number34
+   .filter(number => number >= 0)
+   .map(number => ({value: number }))
+   .filter(obj => obj.value > 1)
+   .map(obj => obj.value);
+
+console.log(items);
+//86
+const numbers12 = [1, 3, -1 , 2];
+
+const sum = numbers12.reduce(
+    (accumulator, currentValue) => accumulator + currentValue);
+console.log(sum);
