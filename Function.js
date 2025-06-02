@@ -24,3 +24,12 @@ function interest(principal, rate=3.5, year=5){
     return principal * rate / 100 * year;
 }
 console.log(interest(10000))
+///
+
+function jame(){
+    let total = 0;
+    for (let value of arguments)
+        total += value;
+    return total;  
+}
+//console.log(sum(1, 2, 3, 4, 5));
