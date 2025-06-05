@@ -50,3 +50,20 @@ function interest(principal, rate=3.5, year=5){
     return principal * rate / 100 * year;
 }
 console.log(interest(10000))
+function sum1 (discount, ...prices){
+    const total = prices.reduce((a, b) => a + b);
+    return total * (1 - discount);
+}
+//console.log(sum1(0.1, 20, 30));
+function interest(principal, rate=3.5, year=5){
+    return principal * rate / 100 * year;
+}
+console.log(interest(10000))function sum1 (discount, ...prices){
+    const total = prices.reduce((a, b) => a + b);
+    return total * (1 - discount);
+}
+//console.log(sum1(0.1, 20, 30));
+function interest(principal, rate=3.5, year=5){
+    return principal * rate / 100 * year;
+}
+console.log(interest(10000))
